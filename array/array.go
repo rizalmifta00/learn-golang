@@ -10,5 +10,11 @@ func main(){
 	names[2] = "dibala"
 	names[3] = "ronaldo"
 
-	fmt.Println(names[0],names[1],names[2],names[3])
+	
+
+	for _,v:= range names {
+		fmt.Print(" ",v)
+	}
+	fmt.Println() 
+
 }
